@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amrut Expo 2025</title>
+  <style>
+    body {
+      background-color:whitesmoke;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .layout {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      max-width: 1300px;
+      margin: 2rem auto;
+      padding: 2rem;
+    }
+    .sidebar {
+      flex: 1;
+      background:antiquewhite;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      font-size: 0.95rem;
+    }
+    .sidebar h3 {
+      color: #017a8b;
+      font-size: 1.1rem;
+      margin-top: 1rem;
+    }
+    .sidebar .nav-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin: 1rem 0;
+    }
+    .sidebar .nav-links button {
+      background: #017a8b;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+     
+      text-align: left;
+    }
+    .sidebar .nav-links button:hover {
+      background: #015f6f;
+    }
+    main {
+      flex: 2;
+      background-color: antiquewhite;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      min-height: 500px;
+    }
+    .section {
+      display: none;
+    }
+    .section.active {
+      display: block;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 1rem;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .photo-gallery {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+    .photo-gallery img {
+      width: 30%;
+      border-radius: 6px;
+      object-fit: cover;}
+    
+     .date {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #017a8b;
+     }
+
+.top-line {
+  height: 4px;
+  background-color: #017a8b;
+  width: 100%;}
+
+  .associate-logos, .client-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.associate-logos img,
+.client-logos img {
+  max-width: 80px;
+  max-height: 60px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+
+  </style>
+  <script>
+    function showSection(id) {
+      const sections = document.querySelectorAll('.section');
+      sections.forEach(section => section.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+</head>
+<body>
+  <div class="layout">
+    <div class="sidebar">
+      
+      <img src="download.png" alt="Amrut Logo" style="height: 100px;;margin-bottom: 1rem;">
+
+    <div class="top-line"></div>
+
+      <h3>Quick Links</h3>
+      <div class="nav-links">
+        <button onclick="showSection('latestNews')">Latest News</button>
+        <button onclick="showSection('visit')">I Want to Visit</button>
+        <button onclick="showSection('exhibit')">I Want to Exhibit</button>
+        <button onclick="showSection('floorplan')">Exhibitors List & Floorplan</button>
+        <button onclick="showSection('hotel')">Hotel Information</button>
+        <button onclick="showSection('photos')">Photo Impression</button>
+        <button onclick="showSection('iftex')">IFTEX 2025 Show Directory</button>
+      </div>
+
+
+
+      <h3>309 days left until the opening</h3>
+
+      <h3>Organized by:</h3>
+      <p>Amrut Filtration  & Indcare Africa </p>
+
+      <h3>Supported by:</h3>
+      <p>Ministry of Water, Kenya</p>
+      <p>Kenya Water Institute</p>
+      <p>Indian Chamber of Commerce</p>
+
+        <h2>Our Associates</h2>
+        <div class="associate-logos">
+          <img src="rex.png" alt="Rexnord">
+          <img src="lovato.png" alt="Lovato Electric">
+          <img src="autonics.png" alt="Autonics">
+          <img src="fluke.png" alt="Fluke">
+          <img src="delta.png" alt="Delta">
+          <img src="seltech.png" alt="Seltech">
+      
+        </div>
+
+ 
+    </div>
+
+    <main>
+
+<br>
+
+<br>
+ <h1> AMRUT 2025 EXPO</h1>
+          <img src="heading.jpg" class="heading-img" alt="Expo Header" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+
+
+      <div id="latestNews" class="section active">
+        <h2>Welcome to Amrut Expo 2025</h2>
+        <p>Explore the future of water treatment and sustainable engineering at Amrut Expo 2025.</p>
+         <p>Welcome to Amrut Filtration and Indcare Africa, two pioneering companies joining hands to create a unique water technology experience at the Amrut & Indcare Africa Expo 2025. This is not just a collaborative event—it’s a convergence of vision, engineering, and impact.</p>
+
+        <p>Amrut Filtration is widely recognized for its work in advanced water purification, modular RO systems, ceramic gravity filters, and turnkey industrial wastewater recovery. With over a decade of global operations, Amrut brings precision, durability, and sustainability to every drop of water it touches.</p>
+
+        <p>Indcare Africa, based in Nairobi, Kenya, is  for customized water treatment solutions. For over ten years, Indcare has been developing and delivering equipment designed for the specific needs of East African homes, agribusinesses, and institutions—from high-fluoride mitigation systems to solar-compatible water stations.</p>
+
+        <p> From municipal-scale filtration units to decentralized community water systems, the expo offers a rare opportunity to learn, engage, and co-create better water futures for our homes, farms, and cities.</p>
+
+        <p>Whether you’re a government engineer, a sustainability student, a supplier, or a concerned citizen, Amrut and Indcare welcome you to explore this vision of clean, reliable water access. Let this be a starting point for new partnerships, transformative ideas, and shared progress.</p>
+
+        <p><strong>Together, let’s filter the future.</strong></p>
+        <div class="photo-gallery">
+          <img src="water.jpg" alt="News Image 2">
+          <img src="best product.jpg" alt="News Image 3">
+          <img src="IMG-20240923-WA0052.jpg" alt="News Image 3">
+        </div>
+
+      </div>
+
+     
+        <div id="visit" class="section">
+        <h2>I Want to Visit</h2>
+        <p>The Amrut Filtration & Indcare Africa Expo 2025 is a pioneering international exhibition that invites the world to Nairobi to explore future-proof technologies in water filtration, purification, and treatment. As a visitor, you will be stepping into a dynamic, solutions-oriented event that is focused entirely on advancing the water-tech agenda for Africa and beyond.</p>
+
+        <p>Visitors can expect a wide spectrum of solutions, from municipal and industrial-scale filtration systems to household and community-based purification units. The event spans three days and is structured to provide meaningful access to both technological innovation and real-life applications. Whether you are a local government official, a commercial grower, an NGO program director, or a sustainability-driven homeowner, this exhibition has something directly applicable to your work and community.</p>
+        <h3>Reasons to Attend:</h3>
+        <ul>
+          <li><strong>Hands-On Access:</strong> Touch, test, and operate over 150 unique water treatment products, including gravity filters, reverse osmosis units, UV filtration, chlorination systems, pressure boosters, cartridge housings, and pre-filtration skids.</li>
+          <li><strong>In-Person Consultations:</strong> Have one-on-one discussions with the engineers, technicians, and product managers from Amrut Filtration, Indcare Africa, and other innovative companies.</li>
+          <li><strong>Workshops & Panels:</strong> Attend sessions on topics like "Water Security in Sub-Saharan Africa," "Low-Cost Solutions for Rural Communities," "Filtration for Flower Farms," and "Integrating Filtration with Solar Power."</li>
+          <li><strong>Networking Opportunities:</strong> Engage with a diverse audience of 2,500+ visitors from Kenya, India, Tanzania, Uganda, Ethiopia, Rwanda, and beyond.</li>
+          <li><strong>Live Installations:</strong> Witness full-scale system installations and learn about design, capacity planning, and maintenance from professionals in real time.</li>
+        </ul>
+
+        <p>Visitors will also benefit from free access to printed directories, digital product brochures, and giveaway kits containing useful field tools and contact databases.</p>
+
+        <h3>Who Should Visit?</h3>
+        <ul>
+          <li>County Water Officers</li>
+          <li>Municipal Procurement Teams</li>
+          <li>Agro-Industrial Engineers</li>
+          <li>Environmental Scientists</li>
+          <li>Health & Sanitation NGOs</li>
+          <li>Plant Managers</li>
+          <li>Hotel & Real Estate Developers</li>
+          <li>Plumbing and Borehole Contractors</li>
+          <li>Homeowners looking for modern filtration</li>
+        </ul>
+         <p><strong>Visitor Registration</strong> is free until July 20, 2025. Late/walk-in entry will cost KES 500. Group packages and sponsored visitor kits are available for schools, universities, and CBOs.</p>
+
+        <p>Email: <a href="mailto:indcaremkt@gmail.com">indcaremkt@gmail.com</a></p>
+<p>Websites: 
+  <a href="https://www.amrutfiltration.com/" target="_blank">Amrut Filtration</a> | 
+  <a href="https://www.indcareafrica.com/innovative-products.html" target="_blank">Indcare Africa Products</a>
+</p>
+
+      </div>
+
+      <div id="exhibit" class="section">
+        <h2>I Want to Exhibit</h2>
+              <p>Exhibiting at the Amrut Filtration & Indcare Africa Expo 2025 provides an unmatched platform to place your products and brand directly in front of decision-makers from across the East African water and sanitation industry. This event is co-hosted by two trusted names: Amrut Filtration (India) and Indcare Africa (Kenya). Together, they are assembling over 60 companies that represent the most forward-thinking filtration technologies available today.</p>
+        <p>This is not just a display expo; it's an action-oriented gathering of companies that serve agriculture, industrial zones, hospitals, residential estates, and humanitarian agencies. Exhibitors will be showcasing filtration equipment, pumping systems, chemical dosing units, testing devices, wastewater recycling systems, and mobile water kiosks.</p>
+        <h3>What You Gain as an Exhibitor:</h3>
+        <ul>
+          <li><strong>Direct Access to Buyers:</strong> Engage with government procurement officers, county engineers, agribusiness cooperatives, and technical managers seeking vendor partnerships.</li>
+          <li><strong>Brand Exposure:</strong> All exhibitors are featured on the website, mobile app, printed expo catalog, and video roll during the expo.</li>
+          <li><strong>Interactive Booth Features:</strong> Real-time demonstrations with power, lighting, internet, water feed, and drain points available.</li>
+          <li><strong>Launch Pad:</strong> Unveil your newest technology in our Media Theatre.</li>
+          <li><strong>Lead Generation:</strong> Post-event database of scanned visitors and panel attendees.</li>
+        </ul>
+        <h3>Exhibitor Categories Include:</h3>
+        <ul>
+          <li>RO & UF Plants</li>
+          <li>Cartridge & Bag Filters</li>
+          <li>Water Testing Instruments</li>
+          <li>Filter Media & Resin Supplies</li>
+          <li>Wastewater & Sewage Solutions</li>
+          <li>Rainwater Harvesting & Storage</li>
+          <li>Membrane Technology</li>
+          <li>Greenhouse Water Systems</li>
+        </ul>
+        <h3>Booth Packages:</h3>
+        <ul>
+          <li>Standard Booth (3x3m): $180</li>
+          <li>Premium Corner Booth (3x3m): $230</li>
+          <li>Outdoor Equipment Zone (6x6m): $300</li>
+        </ul>
+        <p>All packages include back wall branding, table + 2 chairs, electrical socket, lighting, name board, Wi-Fi access, and event directory inclusion. Optional upgrades: LCD screen rentals, plumbing, ad placement, and guest passes.</p>
+        <h3>Exhibitor Onboarding Includes:</h3>
+        <ul>
+          <li>Digital onboarding kit with branding guide</li>
+          <li>Virtual pre-event orientation</li>
+          <li>Listing in digital and printed directories</li>
+          <li>One-page interview on the website and social channels</li>
+        </ul>
+        <p>Email: <a href="mailto:indcaremkt@gmail.com">indcaremkt@gmail.com</a></p>
+<p>Websites: 
+  <a href="https://www.amrutfiltration.com/" target="_blank">Amrut Filtration</a> | 
+  <a href="https://www.indcareafrica.com/innovative-products.html" target="_blank">Indcare Africa Products</a>
+</p>
+
+      </div>
+
+
+      <div id="floorplan" class="section">
+        <h2>🧭 Exhibitors List & Floorplan</h2>
+        <table>
+          <thead>
+            <tr><th>Booth</th><th>Company</th><th>Category</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>A01</td><td>Amrut Filtration Pvt Ltd</td><td>Industrial Filtration Systems</td></tr>
+            <tr><td>A02</td><td>Indcare Africa Ltd</td><td>Residential Water Treatment</td></tr>
+            <tr><td>B04</td><td>HydroTest KE</td><td>Water Quality Testing</td></tr>
+            <tr><td>B07</td><td>AquaStore Uganda</td><td>Storage Tanks & Pumps</td></tr>
+            <tr><td>C10</td><td>Shakti Pumps (India) Ltd</td><td>Solar Pumping Solutions</td></tr>
+            <tr><td>C12</td><td>Water4Africa NGO</td><td>Gravity Filter Outreach</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div id="hotel" class="section">
+        <h2>🏨 Hotel Information</h2>
+        <table>
+          <thead>
+            <tr><th>Hotel Name</th><th>Distance</th><th>Rate per Night (KES)</th><th>Booking Code</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Sarova Stanley</td><td>4 min</td><td>11,000</td><td>INDCARE25</td></tr>
+            <tr><td>Nairobi Serena</td><td>7 min</td><td>13,500</td><td>AMRUT2025</td></tr>
+            <tr><td>PrideInn Industrial</td><td>2 min</td><td>7,500</td><td>EXPOFIL25</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div id="photos" class="section">
+        <h2>📸 Photo Impression</h2>
+        <p>Relive the highlights from past events and preview the atmosphere of Expo 2025.</p>
+        <p>🖼 View gallery & download official impressions</p>
+        <div class="photo-gallery">
+          <img src="IMG-20230622-WA0063.jpg" alt="Expo Highlight 1">
+          <img src="01f85154-c016-46bc-a074-3fa80a610098.jpg" alt="Expo Highlight 2">
+          <img src="499b2cfb-4eba-4a70-bb22-16866b943f8a.jpg" alt="Expo Highlight 3">
+
+        </div>
+      </div>
+
+      <div id="iftex" class="section">
+        <h2>IFTEX 2025 Show Directory</h2>
+        <p>AMRUT FILTRATION & INDCARE AFRICA
+          <p>📍 Nairobi, Kenya</p>
+          <p>Show Director – Amrut & Indcare</p>
+          <p>📧  indcaremkt@gmail.com</p>
+          <p>📞 +254 711 895312</p>
+
+<p>Indcare Africa, brings over 10 years of experience in organizing East African trade events in sustainability, industrial supply</p>
+      </div>
+    </main>
+ 
+    <div class="sidebar">
+  <div class="date">July 28, 2025</div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  
+
+      
+
+   <div class="top-line"></div>
+
+      <h3>Exhibition Hours</h3>
+      <p><strong>Tuesday June 2, 2026</strong><br>Opening Ceremony<br>09:00 hrs. - 11:00 hrs<br>Show Hours<br>11:00 hrs. - 18:00 hrs</p>
+      <p><strong>Wednesday June 3, 2026</strong><br>Show Hours<br>10:00 hrs. - 18:00 hrs<br>Official Exhibition Party<br>18:30 hrs. - 23:00 hrs</p>
+      <p><strong>Thursday June 4, 2026</strong><br>Show Hours<br>10:00 hrs. - 16:00 hrs</p>
+
+      <h3>Venue Address</h3>
+      <p>Visa Oshwal Center<br>Ring Road Parklands<br>Nairobi, Kenya</p>
+
+      <h3>Contact Info</h3>
+  <p><strong>Location:</strong> Butere 30 Industrial Area, Nairobi, Kenya</p>
+  <p><strong>Contact Person:</strong> Mrs. Rachael Kaneri</p>
+  <p><strong>Phone:</strong> 0733 895312</p>
+  <p><strong>Email:</strong> <a href="mailto:indcaremkt@gmail.com">indcaremkt@gmail.com</a></p> 
+
+
+  <h2>Our Clients</h2>
+ 
+        <div class="client-logos">
+          <img src="devki-steel.png" alt="Devki">
+          <img src="sparr.png" alt="Sparr">
+          <img src="sun-africa.png" alt="Sun Africa Hotels">
+          <img src="the-print-exchange.png" alt="The Print Exchange">
+          <img src="sanpac.png" alt="Sanpac Africa">
+        </div>
+    </div>
+      </div>
+</div>
+
+    </div>
+  </div>
+  <footer>
+ 
+  </footer>
+</body>
+</html>
+
